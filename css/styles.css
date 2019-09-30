@@ -21,6 +21,18 @@ hr {
   max-height: 350px;
 }
 
-.galleryRow {
-  flex-direction: row !important;
+.images {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.galleryRow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
 }
