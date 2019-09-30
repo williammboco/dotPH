@@ -29,6 +29,7 @@ hr {
 .contact {
   background-color: #363636;
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .contact-form input, .contact-form textarea {
@@ -41,5 +42,5 @@ hr {
   text-align: center;
   color: #FFFFFF;
   padding: 10px;
-  width: 30%
+  width: 40%
 }
