@@ -15,7 +15,6 @@ hr {
 .bg {
   background-color: #F4F4F4;
   padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
  img {
@@ -43,4 +42,15 @@ hr {
   color: #FFFFFF;
   padding: 10px;
   width: 40%
+}
+
+.contact-content {
+  background-color: #272a2f;
+  color: #FFFFFF;
+  padding: 3rem;
+}
+
+.fa-phone-volume, .fa-envelope{
+  color: #c9a736;
+  padding-left: 1rem;
 }
