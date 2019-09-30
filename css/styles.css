@@ -1,0 +1,26 @@
+.fa-quote-right {
+  color: #ffcb43;
+}
+
+hr {
+  height: 3px;
+  background: #ffcb43;;
+}
+
+.req {
+  max-height: 300px;
+  margin-left: 5rem;
+}
+
+.bg {
+  background-color: #F4F4F4;
+  padding-top: 5rem;
+}
+
+ img {
+  max-height: 350px;
+}
+
+.galleryRow {
+  flex-direction: row !important;
+}
