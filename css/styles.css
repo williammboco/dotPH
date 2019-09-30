@@ -15,24 +15,31 @@ hr {
 .bg {
   background-color: #F4F4F4;
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
  img {
   max-height: 350px;
 }
 
-.images {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+.images img {
+  max-height: 195px;
 }
 
-.galleryRow::after {
-  content: "";
-  clear: both;
-  display: table;
+.contact {
+  background-color: #363636;
+  padding-top: 5rem;
 }
 
-* {
-  box-sizing: border-box;
+.contact-form input, .contact-form textarea {
+  background-color: #272a2f;
+  border: 1px solid #FFFFFF;
+}
+
+.contact-form button {
+  background-color: #c9a736;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 30%
 }
