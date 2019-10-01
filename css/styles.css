@@ -54,3 +54,28 @@ hr {
   color: #c9a736;
   padding-left: 1rem;
 }
+
+@media (max-width: 768px) {
+  .side {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .side hr {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+
+  .golden {
+    padding: 1rem 0;
+  }
+
+  .res {
+    text-align: center;
+    align-items: center;
+  }
+
+  .ress {
+    margin-bottom: 3rem;
+  }
+}
