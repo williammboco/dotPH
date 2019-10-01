@@ -55,6 +55,23 @@ hr {
   padding-left: 1rem;
 }
 
+@media (max-width: 1080px) {
+   .orience-map {
+    max-height: 262px;
+  }
+
+  .images{
+    display: flex;
+    margin-top: 1.5rem;
+    margin-right: 5rem;
+  }
+
+  .images img {
+    max-height: 150px;
+    margin-top: 4rem;
+  }
+}
+
 @media (max-width: 768px) {
   .side {
     text-align: center;
@@ -82,5 +99,23 @@ hr {
 
   .top {
     margin-top: -3.5rem;
+  }
+
+  .orience-map {
+    max-height: 380px;
+  }
+}
+
+@media (max-width: 598px) {
+  .map {
+    max-height: 321px;
+  }
+
+  .contact-inquiry {
+    text-align: center;
+  }
+
+  .contact-form btn {
+    text-align: center;
   }
 }
