@@ -115,7 +115,7 @@ hr {
     text-align: center;
   }
 
-  .contact-form btn {
-    text-align: center;
+  .sbmit {
+    margin: auto;
   }
 }
