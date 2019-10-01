@@ -79,4 +79,8 @@ hr {
     margin-bottom: 3rem;
     text-align: center;
   }
+
+  .top {
+    margin-top: -3.5rem;
+  }
 }
